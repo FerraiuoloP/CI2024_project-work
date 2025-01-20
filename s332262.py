@@ -1,20 +1,21 @@
 import numpy as np
 
-def f0(x: np.ndarray) -> np.ndarray:
-    return x[0] + np.sin(x[1]) / 5
-
-
 def f1(x: np.ndarray) -> np.ndarray:
     return np.sin(x[0])
 
-
+#np.multiply(np.multiply(np.add(np.add(np.add(np.multiply(7.885793211722174, -7.8931273901629595), np.multiply(x[0], x[1])), np.subtract(np.multiply(x[0], x[1]), np.subtract(-9.996265568395703, -3.5368479505381583))), np.multiply(np.multiply(5.517038333390751, x[0]), np.reciprocal(np.divide(1.5827088050437421, x[2])))), np.add(np.subtract(np.multiply(x[1], 4.978572892293439), np.divide(np.multiply(7.885793211722174, x[2]), np.add(0.05336626761377872, -1.6943696697781867))), np.multiply(np.subtract(1.7392443126434909, -7.8931273901629595), x[0]))), np.multiply(np.add(np.multiply(np.multiply(x[1], np.cosh(-3.6182647063354416)), np.reciprocal(np.divide(-3.6182647063354416, x[2]))), np.subtract(np.multiply(x[0], np.multiply(2.6184311110488068, x[2])), np.multiply(np.subtract(5.517038333390751, -9.996265568395703), np.subtract(-9.996265568395703, 6.355714362732318)))), np.divide(np.add(np.add(np.multiply(8.548291176143636, -9.626684954722101), np.multiply(x[0], x[1])), np.absolute(np.multiply(-9.996265568395703, x[0]))), 3.340770779277813)))
 def f2(x: np.ndarray) -> np.ndarray:
-    return np.remainder(np.subtract(np.add(np.divide(x[0], np.remainder(np.divide(np.remainder(np.power(5.762441090132366, -1.8333447125682572), np.remainder(np.divide(-3.72418903935478, 8.842857228186954), np.power(5.762441090132366, -6.80298614303015))), np.subtract(x[0], np.subtract(np.subtract(5.8820115756884395, 7.962776250223364), np.add(x[1], 3.946384103643826)))), np.divide(-1.8333447125682572, 4.718268814272051))), np.remainder(np.remainder(np.add(np.divide(x[0], np.remainder(3.946384103643826, np.multiply(x[2], -3.637788530758854))), x[1]), np.divide(np.remainder(-3.637788530758854, np.remainder(np.subtract(7.962776250223364, x[1]), 4.967465188849376)), 5.856248955463483)), np.add(np.divide(x[0], np.add(4.718268814272051, np.divide(np.add(x[2], -1.5376028560061847), 5.856248955463483))), x[1]))), np.add(np.add(x[2], -1.8333447125682572), np.add(np.add(np.multiply(np.cbrt(np.add(np.power(3.946384103643826, -1.8333447125682572), np.remainder(-6.80298614303015, x[2]))), np.divide(np.add(np.remainder(-0.3253834437435881, x[2]), 5.762441090132366), np.square(7.962776250223364))), np.add(np.divide(x[0], np.add(-4.14263782501725, np.add(x[2], -1.5376028560061847))), x[1])), x[1]))), np.multiply(np.add(np.add(np.remainder(np.divide(np.tan(np.add(4.718268814272051, np.divide(-1.8333447125682572, 4.7101167491019496))), np.add(np.add(np.divide(x[2], 2.1660802768128953), np.multiply(-2.6041183499862175, x[0])), np.add(np.subtract(-0.3253834437435881, x[1]), np.multiply(x[2], -1.8333447125682572)))), np.remainder(np.divide(np.cbrt(-2.121136485060358), np.subtract(np.subtract(-0.3253834437435881, x[1]), np.add(x[0], -8.328304133525853))), np.subtract(np.power(5.762441090132366, np.remainder(-4.447983575511545, 5.762441090132366)), np.divide(np.absolute(x[0]), 3.789873660205105)))), -4.447983575511545), np.multiply(x[2], np.divide(x[0], np.divide(np.multiply(4.7101167491019496, -3.637788530758854), np.add(np.divide(x[0], np.cbrt(3.789873660205105)), x[1]))))), np.power(np.subtract(np.power(5.762441090132366, np.remainder(np.remainder(-4.447983575511545, 5.762441090132366), np.subtract(np.power(np.square(-3.637788530758854), np.remainder(8.842857228186954, 4.967465188849376)), np.add(np.power(4.718268814272051, -1.8333447125682572), np.remainder(-6.80298614303015, x[2]))))), 5.856248955463483), 9.916907097139724)))
-
-def f3(x: np.ndarray) -> np.ndarray: ...
+    return (((((-62.24357039260542 + (x[0] * x[1])) + ((x[0] * x[1]) + 6.459417617857545)) + ((5.517038333390751 * x[0]) * np.reciprocal((1.5827088050437421 / x[2])))) * (((x[1] * 4.978572892293439) - ((7.885793211722174 * x[2]) / -1.641003402164408)) + (9.63237170280645 * x[0]))) * ((((x[1] * 18.649830776786864) * np.reciprocal((-3.6182647063354416 / x[2]))) + ((x[0] * (2.6184311110488068 * x[2])) +253.6732340675021)) * (((-82.29170605396563 + (x[0] * x[1])) + np.absolute((-9.996265568395703 * x[0]))) / 3.340770779277813)))
 
 
-def f4(x: np.ndarray) -> np.ndarray: ...
+def f3(x: np.ndarray) -> np.ndarray:
+    
+
+
+def f4(x: np.ndarray) -> np.ndarray: 
+    return (np.arctan((np.cos((x[0] + -2.643791764058358)) + np.absolute((x[0] + -3.1193709482751033)))) + (((np.cos(x[1]) + np.cos(x[1])) + (np.cos(x[1]) + 2.1089875923126202)) + ((np.cos(x[1]) + np.cos(x[1])) + (np.cos(x[1]) + np.cos(x[1])))))
+
+#
 
 
 def f5(x: np.ndarray) -> np.ndarray: ...
