@@ -2,7 +2,6 @@
 # Symbolic Regression using Genetic Programming
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 ![Contributors](https://img.shields.io/badge/Contributors-4-brightgreen)
-![Commits](https://img.shields.io/badge/Commits-28-blue)
 ![Python](https://img.shields.io/badge/python-3.10-blue)
 
 ## Commits and logs
