@@ -89,7 +89,7 @@ class Tree:
     def __init__(self, method="full", require_valid_tree=True, empty=False):
         # Valid tree means a tree that has a computable fitness (no division by zero, no overflow, etc.)
         # print(f"--Creating tree with max_depth:{max_depth} and spawn_depth:{spawn_depth}")
-        self.age = 0    # NOTE: it's just a test for select_parents_fitness_age
+        
         self.fitness = np.inf
         self.root = None
         while not empty and self.fitness == np.inf:
@@ -234,7 +234,7 @@ class Tree:
 
 
     def mutate_subtree(self):
-        self.age += 1
+        
 
         variables_tree_tripe,other_nodes_triple = self.collect_nodes(self.root)
         variables_tree=Tree.count_vars(variables_tree_tripe)
@@ -279,7 +279,7 @@ class Tree:
 
 
     def mutate_single_node(self, num_mutations=1):
-        self.age += 1
+       
 
         _,nodes_triple = self.collect_nodes(self.root)
         if(len(nodes_triple)==0): #if there are no nodes to mutate but the tree is made only of a variable
@@ -304,7 +304,7 @@ class Tree:
     #2) The resulting trees have a depth <= max_depth
 
     def crossover(self, tree2):
-        # TODO: increment tree age in crossover for select_parents_fitness_age (?)
+        
         new_tree1 = Tree(empty=True)
         new_tree2 = Tree(empty=True)
         new_tree1.root = self.root.clone()
