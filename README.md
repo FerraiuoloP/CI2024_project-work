@@ -36,12 +36,6 @@ An implementation of a Symbolic Regression algorithm, using a tree-based **Genet
   
   - Combine two different trees for generating new offsprings. This allows the algorithm to explore new regions in the search space, encouraging exploration instead of exploitation.
 
-- **Mutation and Crossover**
-
-  - Various mutation mechanisms are implemented. Replace a subtree with a new one (`mutate_subtree`) or modify a single node (`mutate_single_node`) in the selected parent tree. The mutations are implemented in such a way to assure that the resulting tree is still valid.
-  
-  - Combine two different trees for generating new offsprings. This allows the algorithm to explore new regions in the search space, encouraging exploration instead of exploitation.
-
 - **Collapse strategy**
 	- A tree can be collapsed with some probability: certain branches are pruned or reduced in depth, generating a new formula that remains equivalent to the original one.
 
